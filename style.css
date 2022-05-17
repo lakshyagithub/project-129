@@ -1,0 +1,66 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+.note {
+    font-size: 15px;
+    color: #ff0000;
+}
+
+canvas {
+    border: 5px white solid;
+    border-radius: 20px;
+    animation-name: examples;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+
+.div_speed {
+    float: left;
+}
+
+.div_speed_img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+.div_vol {
+    float: right;
+}
+
+.div_vol_img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+@keyframes examples {
+    from {
+        box-shadow: 1px 1px 38px white;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px #ff0000;
+    }
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    z-index: 9;
+}
+
+.play_button {
+    width: 130px;
+    font-size: 25px;
+}
